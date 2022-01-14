@@ -1,31 +1,36 @@
 @include('layouts.admin.head')
 
 <body>
+
+    <div class="padding-left" style="2"
+  
     <!-- container section start -->
     <section id="container" class="">
 
         @include('layouts.admin.header')
         @include('layouts.admin.sidebar')
 
-
+        <br>
+        <br>
+        <br>
         <div class="container">
             <div class="row mt-4">
 
                 <div class="card card-primary">
 
                     <div class="card-header">
-                        <h3 class="card-title">Quick Example</h3>
+                        <h3 class="card-title">USER</h3>
                     </div>
-
+                        
                     <table class="table">
                         <thead>
                             <tr>
                                 <th scope="col">ID</th>
-                                <th scope="col">Name</th>
-                                <th scope="col">email</th>
-                                <th scope="col">address</th>
-                                <th scope="col">phone</th>
-                                <th scope="col">Action</th>
+                                <th scope="col">NAME</th>
+                                <th scope="col">EMAIL</th>
+                                <th scope="col">ADDRESS</th>
+                                <th scope="col">PHONE</th>
+                                <th scope="col">ACTION</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -54,7 +59,7 @@
     </section>
 
 
-
+    </div>
 </body>
 
 </html>

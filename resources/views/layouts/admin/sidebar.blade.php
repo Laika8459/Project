@@ -36,7 +36,7 @@
              <li>
                  <a class="" href="{{route('user')}}">
                      <i class="fa fa-user-circle" aria-hidden="true"></i>
-                     <span>หน้า User</span>
+                     <span>User</span>
 
                  </a>
 
@@ -44,8 +44,8 @@
              <li>
 
                  <a class="" href="{{route('room')}}">
-                     <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-                     <span>หน้า Room</span>
+                     <i class="fa fa-hotel" aria-hidden="true"></i>
+                     <span>Room</span>
 
                  </a>
 
@@ -54,7 +54,7 @@
              <li>
                  <a class="" href="{{route('header')}}">
                      <i class="fa fa-header" aria-hidden="true"></i>
-                     <span>หน้า Headers</span>
+                     <span>Headers</span>
 
                  </a>
 
@@ -62,8 +62,8 @@
 
              <li>
                  <a class="" href="{{route('details')}}">
-                     <i class="fa fa-file-o" aria-hidden="true"></i>
-                     <span>หน้า Body</span>
+                     <i class="fa fa-edit" aria-hidden="true"></i>
+                     <span>Body</span>
 
                  </a>
 
@@ -71,8 +71,8 @@
 
              <li>
                  <a class="" href="{{route('contents')}}">
-                     <i class="fa fa-file-o" aria-hidden="true"></i>
-                     <span>หน้า Contents</span>
+                     <i class="fa fa-file-word-o" aria-hidden="true"></i>
+                     <span>Contents</span>
 
                  </a>
 
@@ -80,8 +80,8 @@
 
              <li>
                 <a class="" href="{{route('footer')}}">
-                    <i class="fa fa-file-o" aria-hidden="true"></i>
-                    <span>หน้า footer</span>
+                    <i class="fa fa-comment" aria-hidden="true"></i>
+                    <span>Footer</span>
 
                 </a>
             </li>

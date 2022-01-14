@@ -10,19 +10,20 @@
 <br>
 <br>
 <br>
-
-
 <div class="container">
       <div class="row">
-
+        <div class="card card-primary">
+          <div class="card-header">
+            <h3 class="card-title">HOME</h3>
+          </div>
 
   <table class="table">
   <thead>
     <tr>
-      <th scope="col">id_room</th>
-      <th scope="col">name</th>
-      <th scope="col">image</th>
-      <th scope="col">Action</th>
+      <th scope="col">ID_ROOM</th>
+      <th scope="col">NAME</th>
+      <th scope="col">IMAGE</th>
+      <th scope="col">ACTION</th>
     </tr>
   </thead>
   <tbody>

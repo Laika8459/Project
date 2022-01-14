@@ -6,13 +6,15 @@
   @include('layouts.admin.header')
   @include('layouts.admin.sidebar')
 
-
+  <br>
+  <br>
+  <br>
   <div class="container">
   <div class="row mt-4">
 
   <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Room</h3>
+                <h3 class="card-title">ROOM</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -67,11 +69,11 @@
   <thead>
     <tr>
       <th scope="col">ID</th>
-      <th scope="col">Name</th>
-      <th scope="col">room_member</th>
-      <th scope="col">image</th>
-      <th scope="col">User</th>
-      <th scope="col">Action</th>
+      <th scope="col">NAME</th>
+      <th scope="col">ROOM_MEMBER</th>
+      <th scope="col">IMAGE</th>
+      <th scope="col">USER</th>
+      <th scope="col">ACTION</th>
     </tr>
   </thead>
   <tbody>
