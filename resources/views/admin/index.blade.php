@@ -22,6 +22,7 @@
     <tr>
       <th scope="col">ID_ROOM</th>
       <th scope="col">NAME</th>
+      <th scope="col">ROOM_MEMBER</th>
       <th scope="col">IMAGE</th>
       <th scope="col">ACTION</th>
     </tr>
@@ -32,8 +33,9 @@
     <tr>
       <td>{{$rooms->id_room}}</td>
       <td>{{$rooms->name}}</td>
+      <td>{{$rooms->room_member}}</td>
       <td>
-        <img src="{{asset('admin/img/'.$rooms->image)}}" alt="" style="width:100px">
+      <img src="{{asset('admin/img/'.$rooms->image)}}" alt="" style="width:100px">
       </td>
       <td>
         <a href="{{url('/admin/Room/edit/'.$rooms->id_room)}}" class="btn btn-success">Edit</a>

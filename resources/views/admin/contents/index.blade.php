@@ -22,7 +22,7 @@
                 @csrf
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">ข้อความ</label>
+                    <label for="exampleInputEmail1">TEXT</label>
                     <input type="text" class="form-control" id="text" name="text" placeholder="ข้อความ">
 
                     @error('text')
@@ -31,7 +31,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
+                    <label for="exampleInputFile">FILE INPUT</label>
                     <div class="input-group">
                       <div class="custom-file">
                         <input type="file" class="custom-file-input" name="image" id="image">
@@ -49,7 +49,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary">SUBMIT</button>
                 </div>
               </form>
             </div>

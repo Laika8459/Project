@@ -21,7 +21,7 @@
               <form action="{{url('/admin/Details/create')}}" method="POST" enctype="multipart/form-data">
                 @csrf
                   <div class="form-group">
-                    <label for="text">หัวข้อ</label>
+                    <label for="text">HEAD TEXT</label>
                     <input type="text" name="headtext" class="form-control"  id="headtext" placeholder="หัวข้อ">
                   </div>
                   <div class="row mt-3">
@@ -31,7 +31,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="text">ข้อความ</label>
+                    <label for="text">TEXT</label>
                     <input type="text" name="text" class="form-control" id="text" placeholder="ข้อความ">
                   </div>
                   <div class="row mt-3">
@@ -42,7 +42,7 @@
 
 
                   <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
+                    <label for="exampleInputFile">FILE INPUT</label>
                     <div class="input-group">
                       <div class="custom-file">
                         <input type="file" class="custom-file-input" name="image" id="image">
@@ -60,7 +60,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary">SUBMIT</button>
                 </div>
               </form>
             </div>

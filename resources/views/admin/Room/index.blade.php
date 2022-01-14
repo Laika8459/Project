@@ -21,7 +21,7 @@
               <form action="{{url('/admin/Room/create')}}" method="POST" enctype="multipart/form-data">
                 @csrf
                   <div class="form-group">
-                    <label for="room_member">room_member</label>
+                    <label for="room_member">ROOM_MEMBER</label>
                     <input type="text" name="room_member" class="form-control"  id="room_member" placeholder="room_member">
                   </div>
                   <div class="row mt-3">
@@ -31,7 +31,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="name">name</label>
+                    <label for="name">NAME</label>
                     <input type="text" name="name" class="form-control" id="name" placeholder="name">
                   </div>
                   <div class="row mt-3">
@@ -42,11 +42,11 @@
 
 
                   <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
+                    <label for="exampleInputFile">FILE INPUT</label>
                     <div class="input-group">
                       <div class="custom-file">
                         <input type="file" class="custom-file-input" name="image" id="image">
-                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                        <label class=  "custom-file-label" for="exampleInputFile">Choose file</label>
                         <div class="row mt-3">
                     @error('image')
                     <span class="text-danger">  {{$message}}</span>
@@ -60,7 +60,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary">SUBMIT</button>
                 </div>
               </form>
             </div>
